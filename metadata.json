@@ -1,0 +1,7 @@
+{
+  "name": "Persona-Trivia AI",
+  "description": "An interactive trivia game featuring a live AI host with custom personalities, powered by Gemini Live API and Google Search grounding.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
