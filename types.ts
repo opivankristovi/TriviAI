@@ -18,6 +18,16 @@ export interface GroundingSource {
   uri: string;
 }
 
+export interface PlayerStats {
+  name: string;
+  avatar: string;
+  totalScore: number;
+  level: number;
+  experience: number;
+  gamesPlayed: number;
+  lastPlayed: string;
+}
+
 export enum GameState {
   LOBBY = 'LOBBY',
   PREPARING = 'PREPARING',
